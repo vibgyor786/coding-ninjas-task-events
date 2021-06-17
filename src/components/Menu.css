@@ -1,0 +1,27 @@
+.menu{
+    /* height:auto; */
+    width: 100%;
+    margin-bottom: 36px;
+}
+.menu{
+    /* display: flex;
+    align-items: center;
+    justify-self: center; */
+}
+.menu a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #666464;
+    font-size: 1.35rem;
+    margin: 4%;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+    .menu a{
+     overflow-y: scroll;
+    }
+  }

@@ -1,0 +1,45 @@
+.main_navbar{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    background-color:#fafafa ;
+    border-bottom: 1px solid #00000011;
+    border-top: 1px solid #00000011;
+    
+   
+}
+.back_orange{
+    color: lightsalmon;
+}
+.main_navbar a{
+    text-decoration: none;
+    color: #666464;
+    font-size: 1.35rem;
+    margin: 4%;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    display: flex;
+    align-items: center;
+    
+}
+.main_navbar a h3{
+    margin-left: 2%;
+    margin: 0;
+    /* display: flex; */
+    font-weight: 400;
+    width:max-content;
+}
+.main_navbar a i{
+    font-size:1.5rem;
+    
+}
+
+
+@media screen and (max-width: 1413px) {
+    .main_navbar {
+       overflow: scroll;
+    }
+      
+
+  }
+
